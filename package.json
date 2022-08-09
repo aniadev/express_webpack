@@ -7,7 +7,7 @@
     "dev": "nodemon dist/app.bundle.js",
     "webpack": "webpack -w",
     "build": "webpack",
-    "start": "node dist/app.bundle.js"
+    "start": "webpack && node dist/app.bundle.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

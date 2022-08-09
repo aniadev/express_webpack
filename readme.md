@@ -13,10 +13,9 @@
     ```
 ## Production:
 
-- Run webpack to build bundle
+- Install
     ```sh
     yarn install
-    yarn build
     ```
 - Run app
      ```sh
